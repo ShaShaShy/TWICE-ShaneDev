@@ -1,0 +1,105 @@
+		body{
+			font-family: 'DynaPuff',sans-serif;
+			background: #252839;
+			text-align: center;
+		}
+
+			nav{
+				font-size: 20px;
+			}
+
+		h1{
+
+			font-weight: bold;
+			position: relative;
+			font-size: 8vw;
+			color: #252839;
+			-webkit-text-stroke: 0.3vw #383d52;
+			text-transform: uppercase;
+		}
+		h1::before{
+			content: attr(data-text);
+			position: absolute;
+			top: 0;
+			left: 40%;
+			width: 0;
+			height: 100%;
+			color: #00C9A7;
+			-webkit-text-stroke: 0vw #383d52;
+			border-right: 2px solid #008E9B;
+			overflow: hidden;
+			animation: animate 6s linear infinite;
+		}
+
+		@keyframes animate{
+			0%,10%,100%,
+			{
+				width: 0;
+			}
+			70%,90%
+			{
+				width: 30%;
+			}
+
+}
+
+
+.mycontainer p{
+	color: #FBEAFF;
+	padding: 3%;
+}
+
+.hero img{
+	width: 80%;
+	border: 2px solid #ffffff;
+	border-radius: 10px;
+ }
+
+ .container-3 img{
+ 	width: 10%;
+ }
+
+
+
+ .mycontainer a{
+ 	font-family: 'Poppins',sans-serif;
+ 	font-size: 20px;
+ 	text-decoration: none;
+ 	color: #ffffff;
+
+ }
+
+ .mycontainer h2{
+ 	color: #FBEAFF;
+ 	font-family: 'DynaPuff',sans-serif;
+ }
+
+
+.container-2 img{
+	width: 100%;
+}
+
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 2%;
+
+}
+
+.column img{
+	border: 2px solid #ffffff;
+	width: 80%;
+}
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column a{
+  font-family: 'DynaPuff',sans-serif;
+}
+
