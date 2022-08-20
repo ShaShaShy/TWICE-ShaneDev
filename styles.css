@@ -91,6 +91,7 @@
 .column img{
 	border: 2px solid #ffffff;
 	width: 80%;
+	box-shadow: 5px 10px #4FFBDF;
 }
 /* Clear floats after image containers */
 .row::after {
@@ -103,3 +104,34 @@
   font-family: 'DynaPuff',sans-serif;
 }
 
+.lead{
+	color: #FBEAFF;
+	padding: 3%;
+}
+
+.lead img{
+	width: 3%;
+}
+
+.q{
+	color: #FBEAFF;
+}
+
+.history{
+	color: #FBEAFF;
+	padding: 5%;
+}
+
+.history img{
+	box-shadow: 5px 10px #4B4453;
+	margin-bottom: 3%;
+	width: 60%;
+}
+
+figcaption{
+	font-size: 20px;
+}
+
+.watch iframe{
+	box-shadow: 5px 10px #4B4453;
+}
